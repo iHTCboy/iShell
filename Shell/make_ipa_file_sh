@@ -8,7 +8,7 @@ ipaFileName=""
 # 定义读取输入字符的函数
 getProjectAppPath() {
 	# 输出换行，方便查看
-	echo "\n================================================"
+	echo "================================================"
 	# 监听输入并且赋值给变量
 	read -p " Enter .app path: " projectAppPath
 	# 如果为空值，从新监听
@@ -19,7 +19,7 @@ getProjectAppPath() {
 
 getOutputPath() {
 	# 输出换行，方便查看
-	echo "\n================================================"
+	echo "================================================"
 	# 监听输入并且赋值给变量
 	read -p " Enter output path: " outputPath
 
@@ -31,7 +31,7 @@ getOutputPath() {
 
 getipaFileName() {
 	# 输出换行，方便查看
-	echo "\n================================================"
+	echo "================================================"
 	# 监听输入并且赋值给变量
 	read -p " Enter ipa FileName: " ipaFileName
 
@@ -64,7 +64,7 @@ zip -r "${ipaFileName}.ipa" Payload
 rm -rf "Payload"
 
 # 成功提示
-echo "\n\n=====================【转换ipa完成】=========================\n"
+echo "=====================【转换ipa完成】========================="
 
 echo ${outputPath}
 ## 打开输出的路径
