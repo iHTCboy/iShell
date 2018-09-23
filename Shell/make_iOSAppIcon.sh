@@ -61,7 +61,7 @@ creatAppIcon() {
 	
 	prev_size_path=${icon_1024_path} #用于复制小图，减少内存消耗
 	# 需要生成的图标尺寸
-	icons=(180 167 152 120 87 80 60 58 40)
+	icons=(180 167 152 120 87 80 76 60 58 40)
 	for size in ${icons[@]}
 	do
 		size_path="${icon_paht}/icon-${size}.png"
@@ -165,6 +165,7 @@ creatAppIcon() {
 			{
 				"idiom" : "ipad",
 				"size" : "76x76",
+                "filename" : "icon-76.png",
 				"scale" : "1x"
 			},
 			{
