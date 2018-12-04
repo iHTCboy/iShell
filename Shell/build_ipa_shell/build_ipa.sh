@@ -72,6 +72,7 @@ cd ${project_path}
 echo '///-----------'
 echo '/// 正在清理工程'
 echo '///-----------'
+rm -rf ${build_path} # Xcode10后 删除build目录，不会自动清除
 xcodebuild \
 clean -configuration ${development_mode} -quiet  || exit
 
@@ -118,6 +119,9 @@ echo '///------------'
 echo '/// 打包ipa完成  '
 echo '///-----------='
 echo ''
+
+# Xcode10后 删除build目录，不会自动清除
+rm -rf ${build_path}
 
 # 打开生成ipa的目录
 open ${exportIpaPath}
