@@ -12,3 +12,7 @@ Shell脚本编程技巧，总结一些常用的提高效率的方法。
 - [shell技巧4 - nm命令解决AppStore2.5.2被拒问题 | iHTCboy's blog](https://ihtcboy.com/2018/09/16/2018-09-16_shell技巧4_nm命令解决AppStore被拒问题/)
 
 - [shell技巧5 - 全自动打包ipa | iHTCboy's blog](https://ihtcboy.com/2018/09/17/2018-09-17_shell技巧5_全自动打包生成ipa/)
+
+- [shell技巧6 - iOS最大构建版本文件大小 | iHTCboy's blog](https://ihtcboy.com/2019/03/13/2019-03-13_shell技巧6-iOS最大构建版本文件大小/)
+
+- [shell技巧7 - git提高效率的一些用法 | iHTCboy's blog](https://ihtcboy.com/2019/03/14/2019-03-14_shell技巧7-git更新等效率脚本/)
